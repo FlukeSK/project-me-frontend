@@ -49,7 +49,7 @@ export default function Menu() {
                     <>
 
                       <li>
-                        <a className=" hover:text-pink-700 duration-300" href="/checkqueue">Check Queue</a>
+                        <a className=" hover:text-pink-700 duration-300" href="/checkqueueadmin">Check Queue</a>
                       </li>
 
                       <li>

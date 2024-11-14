@@ -4,7 +4,7 @@ import LogoCat from "../../layouts/LogoCat";
 import { useContext } from "react";
 import { DateContext } from "../../features/auth/contexts/DateContext";
 
-export default function CheckQueue() {
+export default function CheckQueueAdmin() {
   const { date, setDate } = useContext(DateContext);
 
   return (
