@@ -1,4 +1,4 @@
-import React from "react";
+
 import LoginForm from '../features/auth/components/LoginForm';
 import RegisterContainer from '../features/auth/components/RegisterContainer';
 import LogoCat from "../layouts/LogoCat";
