@@ -10,7 +10,7 @@ import RedirectIfAuthenticated from "../features/auth/components/RedirectIfAuthe
 import ProtectedRoute from "../features/auth/components/ProtectedRoute";
 import Gift from "../pages/Gift";
 
-import CheckQueue from "../pages/admin/CheckQueue";
+import CheckQueueAdmin from "../pages/admin/CheckQueueAdmin";
 import ChangPassword from "../pages/ChangePassword";
 import RunQue from "../pages/miniFoodPage/RunQue";
 
@@ -56,8 +56,8 @@ const router = createBrowserRouter([
         element: <QuePage />,
       },
       {
-        path: "checkqueue",
-        element: <CheckQueue />,
+        path: "checkqueueadmin",
+        element: <CheckQueueAdmin />,
       },
       {
         path: "changepassword",
